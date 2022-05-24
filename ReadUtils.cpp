@@ -6,7 +6,7 @@ using namespace std;
 void commonErrorCode(const char prompt[]) {
         cin.clear();
         cin.ignore(1000,'\n');
-        cout << "Invalid Data!" << endl;
+        cerr << "Invalid Data!" << endl;
         cout << prompt;
 }
 

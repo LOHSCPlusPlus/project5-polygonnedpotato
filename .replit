@@ -1,0 +1,2 @@
+language = "cpp"
+run = "make -f InventorDB.mak; valgrind --leak-check=full ./InventorDB"
